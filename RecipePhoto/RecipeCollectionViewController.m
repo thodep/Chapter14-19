@@ -164,7 +164,9 @@ static NSString * const reuseIdentifier = @"Cell";
 	
 }
 */
-- (IBAction)ShareButtonTapped:(id)sender {
+
+ 
+- (IBAction)shareButtonTapped:(id)sender {
     if (shareEnabled) {
         
         // Post selected photos to Facebook
@@ -212,8 +214,8 @@ static NSString * const reuseIdentifier = @"Cell";
         return NO;
     } else {
         return YES;
+        
+    }
     
-}
-
 }
 @end

@@ -72,12 +72,12 @@
                     <navigationItem key="navigationItem" title="Recipe Photo" id="bMV-6S-5oE">
                         <barButtonItem key="rightBarButtonItem" title="Share" id="Pgv-Qe-M1s">
                             <connections>
-                                <action selector="ShareButtonTapped:" destination="g8A-lC-a29" id="PjR-rl-t1C"/>
+                                <action selector="shareButtonTapped:" destination="g8A-lC-a29" id="Rpt-oh-kCc"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="shareButton" destination="Pgv-Qe-M1s" id="ueb-4c-io1"/>
+                        <outlet property="shareButton" destination="Pgv-Qe-M1s" id="OzR-CT-2Yl"/>
                         <segue destination="pSk-u4-GHH" kind="modal" identifier="showRecipePhoto" id="fYA-ky-TEO"/>
                     </connections>
                 </collectionViewController>
