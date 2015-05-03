@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1412E971AF1671D007150A2 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1412E961AF1671D007150A2 /* RecipeViewController.m */; };
+		D165CDDE1AF029DE00C4A7AA /* RecipeCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D165CDDD1AF029DE00C4A7AA /* RecipeCollectionHeaderView.m */; };
 		D17EB97B1AEEC8CD00B6EAED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D17EB97A1AEEC8CD00B6EAED /* main.m */; };
 		D17EB97E1AEEC8CD00B6EAED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D17EB97D1AEEC8CD00B6EAED /* AppDelegate.m */; };
 		D17EB9811AEEC8CD00B6EAED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17EB9801AEEC8CD00B6EAED /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		D17EB9861AEEC8CD00B6EAED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17EB9851AEEC8CD00B6EAED /* Images.xcassets */; };
 		D17EB9891AEEC8CD00B6EAED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D17EB9871AEEC8CD00B6EAED /* LaunchScreen.xib */; };
 		D17EB9951AEEC8CE00B6EAED /* RecipePhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D17EB9941AEEC8CE00B6EAED /* RecipePhotoTests.m */; };
+		D17EB9A01AEECAC400B6EAED /* RecipeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D17EB99F1AEECAC400B6EAED /* RecipeCollectionViewCell.m */; };
+		D17EB9A31AEECC2400B6EAED /* RecipeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17EB9A21AEECC2400B6EAED /* RecipeCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D1412E951AF1671D007150A2 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		D1412E961AF1671D007150A2 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+		D165CDDC1AF029DE00C4A7AA /* RecipeCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionHeaderView.h; sourceTree = "<group>"; };
+		D165CDDD1AF029DE00C4A7AA /* RecipeCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionHeaderView.m; sourceTree = "<group>"; };
 		D17EB9751AEEC8CD00B6EAED /* RecipePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17EB9791AEEC8CD00B6EAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D17EB97A1AEEC8CD00B6EAED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,10 @@
 		D17EB98E1AEEC8CE00B6EAED /* RecipePhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipePhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17EB9931AEEC8CE00B6EAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D17EB9941AEEC8CE00B6EAED /* RecipePhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipePhotoTests.m; sourceTree = "<group>"; };
+		D17EB99E1AEECAC300B6EAED /* RecipeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionViewCell.h; sourceTree = "<group>"; };
+		D17EB99F1AEECAC400B6EAED /* RecipeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionViewCell.m; sourceTree = "<group>"; };
+		D17EB9A11AEECC2400B6EAED /* RecipeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionViewController.h; sourceTree = "<group>"; };
+		D17EB9A21AEECC2400B6EAED /* RecipeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,14 @@
 				D17EB9851AEEC8CD00B6EAED /* Images.xcassets */,
 				D17EB9871AEEC8CD00B6EAED /* LaunchScreen.xib */,
 				D17EB9781AEEC8CD00B6EAED /* Supporting Files */,
+				D17EB9A11AEECC2400B6EAED /* RecipeCollectionViewController.h */,
+				D17EB9A21AEECC2400B6EAED /* RecipeCollectionViewController.m */,
+				D17EB99E1AEECAC300B6EAED /* RecipeCollectionViewCell.h */,
+				D17EB99F1AEECAC400B6EAED /* RecipeCollectionViewCell.m */,
+				D165CDDC1AF029DE00C4A7AA /* RecipeCollectionHeaderView.h */,
+				D165CDDD1AF029DE00C4A7AA /* RecipeCollectionHeaderView.m */,
+				D1412E951AF1671D007150A2 /* RecipeViewController.h */,
+				D1412E961AF1671D007150A2 /* RecipeViewController.m */,
 			);
 			path = RecipePhoto;
 			sourceTree = "<group>";
@@ -219,8 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17EB9A01AEECAC400B6EAED /* RecipeCollectionViewCell.m in Sources */,
+				D165CDDE1AF029DE00C4A7AA /* RecipeCollectionHeaderView.m in Sources */,
+				D17EB9A31AEECC2400B6EAED /* RecipeCollectionViewController.m in Sources */,
 				D17EB9811AEEC8CD00B6EAED /* ViewController.m in Sources */,
 				D17EB97E1AEEC8CD00B6EAED /* AppDelegate.m in Sources */,
+				D1412E971AF1671D007150A2 /* RecipeViewController.m in Sources */,
 				D17EB97B1AEEC8CD00B6EAED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +440,7 @@
 				D17EB99A1AEEC8CE00B6EAED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D17EB99B1AEEC8CE00B6EAED /* Build configuration list for PBXNativeTarget "RecipePhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				D17EB99D1AEEC8CE00B6EAED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
